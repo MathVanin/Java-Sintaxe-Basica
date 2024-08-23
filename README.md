@@ -29,7 +29,7 @@ são eles:
   Não      |    Identado
   Identado |        Corretamente
   ~~~
-- **Nome de classes:** Primeira letra de cada palavra deve ser maiúscula.
+- **Nome de classes:** Primeira letra de cada palavra deve ser maiúscula, substantivo, caso tenha nome composto a primeira letra de cada palavra deve ser maiúscula.
   > Exemplos: `Classe`, `ClasseExemplo` ou `ClasseDeExemplo`
 - **Nome de métodos e variáveis:** Primeira letra de cada palavra deve ser maiuscula, exceto a primeira palavra (
   CamelCase).
