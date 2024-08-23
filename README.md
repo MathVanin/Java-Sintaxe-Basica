@@ -144,3 +144,23 @@ são eles:
   final double DECIMAL = 10.5;
   final String TEXTO_HELLO_WORLD = "Hello world!";
   ~~~
+
+##  🧮️ Operadores
+### **Operadores aritméticos** 
+ - São utilizados para realizar operações matemáticas
+    > | Operador | Descrição     | Exemplo | Resultado |
+    > |----------|---------------|---------|-|
+    > | +        | Adição        | 10 + 3  | 13 | 
+    > | -        | Subtração     | 15 - 7  | 8  |
+    > | *        | Multiplicação | 2 * 4   | 8  |
+    > | /        | Divisão       | 10 / 2  | 5  |
+    > | %        | Módulo        | 16 % 3  | 1  | 
+
+### Operadores unários
+- São utilizados para realizar algumas tarefas básicas de forma simples, como incrementar, decrementar, inverter valores númericos e booleanos
+  > | Operador | Descrição     | Exemplo | Resultado |
+  > |----------|---------------|---------|-|
+  > | +        | Sinal         | +a      | a        |
+  > | -        | Negativo      | -a      | -a       |
+  > | ++       | Incremento    | a++     | a = a + 1 | 
+  > | --       | Decremento    | a--     | a = a - 1 |
