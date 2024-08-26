@@ -1,7 +1,21 @@
 package edu.mathvanin.javasintaxebasica;
 
-public class ConvencaoDeCodigo {
+public class Exemplos {
+    // Exemplos de tipos de váriaveis e operadores
+    private static void variaveisOperadores(){
+        int notaProva1 = 10;
+        int notaProva2 = 4;
+        int notaProva3 = 7;
+        int notaProva4 = 7;
+        String nomeAluno = "João";
+        boolean aprovado;
+        int media = (notaProva1 + notaProva2 + notaProva3 + notaProva4) / 4;
+        if (media >= 5)
+            aprovado = true;
+    }
+
     // Identeção
+    // Exemplo de criação de método
     private static void identacao() {
         System.out.println(" ========= Identação =========");
         System.out.println("Esse é um exemplo de código identado");
@@ -14,6 +28,7 @@ public class ConvencaoDeCodigo {
     }
 
     // Nome de classes
+    // Exemplo de criação de método
     private static void nomeDeClasses() {
         System.out.println(" ========= Nome de classes =========");
         System.out.println("O nome de uma classe deve ser um substantivo");
@@ -25,6 +40,7 @@ public class ConvencaoDeCodigo {
     }
 
     //Nome de métodos e variáveis
+    // Exemplo de criação de método
     private static void nomeDeMetodosEVariaveis() {
         System.out.println(" ========= Nome de métodos e variáveis =========");
         System.out.println("O nome de um método deve ser um verbo");
@@ -39,6 +55,7 @@ public class ConvencaoDeCodigo {
     }
 
     // Constantes
+    // Exemplo de criação de método
     private static void constantes() {
         System.out.println(" ========= Constantes =========");
         System.out.println("O nome de uma constante deve ser em maiúsculo");
@@ -48,6 +65,7 @@ public class ConvencaoDeCodigo {
         System.out.println("================================");
     }
 
+    // Exemplo de criação do método main
     public static void main(String[] args) {
         System.out.println("\n");
         identacao();
@@ -57,5 +75,7 @@ public class ConvencaoDeCodigo {
         nomeDeMetodosEVariaveis();
         System.out.println("\n");
         constantes();
+        System.out.println("\n");
+        variaveisOperadores();
     }
 }
