@@ -164,3 +164,28 @@ são eles:
   > | -        | Negativo      | -a      | -a       |
   > | ++       | Incremento    | a++     | a = a + 1 | 
   > | --       | Decremento    | a--     | a = a - 1 |
+
+### Operadores de atribuição
+- São utilizados para atribuir valores a variáveis
+  > | Operador | Descrição     | Exemplo | Resultado |
+  > |----------|---------------|---------|-|
+  > | =        | Atribuição    | a = 10  | a = 10    |
+  > | +=       | Adição        | a += 5  | a = a + 5 |
+  > | -=       | Subtração     | a -= 5  | a = a - 5 |
+  > | *=       | Multiplicação | a *= 5  | a = a * 5 |
+  > | /=       | Divisão       | a /= 5  | a = a / 5 |
+  > | %=       | Módulo        | a %= 5  | a = a % 5 |
+
+### Operadores lógicos
+- São utilizados para realizar operações lógicas entre valores booleanos
+  > | Operador | Descrição     | Exemplo        | Resultado |
+  > |----------|---------------|----------------|-----------|
+  > | ==       | Igual a       | 10 == 5        | false     |
+  > | !=       | Diferente de  | 10 != 5        | true      |
+  > | &&       | E             | true && false  | false     |
+  > | \|\|     | OU            | true \|\| true | true      |
+  > | \>       | Maior que | 10 > 5         | true      |
+  > | <        | Menor que | 10 < 5         | false     |
+  > | \>=      | Maior ou igual a | 10 >= 10       | true      |
+  > | <=       | Menor ou igual a | 10 <= 5        | false     |
+  > | !        | Negação       | !true          | false     |

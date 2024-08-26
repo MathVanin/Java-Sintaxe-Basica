@@ -1,17 +1,36 @@
 package edu.mathvanin.javasintaxebasica;
 
+import java.util.Scanner;
+
 public class Exemplos {
     // Exemplos de tipos de váriaveis e operadores
     private static void variaveisOperadores(){
-        int notaProva1 = 10;
-        int notaProva2 = 4;
-        int notaProva3 = 7;
-        int notaProva4 = 7;
-        String nomeAluno = "João";
-        boolean aprovado;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(" ========= Variáveis e Operadores =========");
+
+        // Exemplo de declaração de variáveis e atribuição de valores
+        System.out.println("Digite o nome do aluno: ");
+        String nome = scanner.nextLine();
+        System.out.println("Digite a nota da prova 1: ");
+        int notaProva1 = Integer.parseInt(scanner.nextLine());
+        System.out.println("Digite a nota da prova 2: ");
+        int notaProva2 = Integer.parseInt(scanner.nextLine());
+        System.out.println("Digite a nota da prova 3: ");
+        int notaProva3 = Integer.parseInt(scanner.nextLine());
+        System.out.println("Digite a nota da prova 4: ");
+        int notaProva4 = Integer.parseInt(scanner.nextLine());
+        boolean aprovado = false;
+
+        // Exemplo de calculo aritimético
         int media = (notaProva1 + notaProva2 + notaProva3 + notaProva4) / 4;
+
+        // Exemplo de operador lógico
         if (media >= 5)
             aprovado = true;
+
+        // Exemplo de operador ternário
+        System.out.println(aprovado ? "O aluno " + nome + " foi aprovado" : "O aluno " + nome + " foi reprovado");
+
     }
 
     // Identeção
