@@ -80,34 +80,6 @@ são eles:
       System.out.println("Hello world!");
     }
     ~~~
-- Declarar métodos
-    ~~~java
-   public static [TipoDeRetorno] [NomeDoMetodo] ([Parametros]){
-        [Código a ser implementado]
-    }
-  
-  -------------------------------
-  Exemplo:
-  
-    private statc main(String[] args){
-        Double[] valores = pegarValores();
-        Double resultado = somar(valores[0], valores[1]);
-        System.out.println("A soma dos valores é: " + resultado);
-    }
-  
-    private Double[] pegarValores(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o primeiro número:");
-        Double a = Double.valueOf(scanner.nextLine());
-        System.out.println("Digite o segundo número:");
-        Double b = Double.valueOf(scanner.nextLine());
-        return new Double[] {a, b};
-    }
-  
-    public static Double somar(Double numeroUm, Double numeroDois){
-        return numeroUm + numeroDois;
-    }
-    ~~~
 
 ## 🔢 Tipos e variáveis
 
@@ -189,3 +161,44 @@ são eles:
   > | \>=      | Maior ou igual a | 10 >= 10       | true      |
   > | <=       | Menor ou igual a | 10 <= 5        | false     |
   > | !        | Negação       | !true          | false     |
+
+## 🛞 Métodos
+São blocos de código que podem ser chamados para realizar uma tarefa específica, utilizados para
+  organizar o código e reutilizar trechos de código. De forma resumida métodos são as ações da classe
+
+### Visibilidade dos métodos
+  > | Visibilidade | Descrição                                                                 |
+  > |--------------|---------------------------------------------------------------------------|
+  > | public       | Pode ser acessado por qualquer classe                                     |
+  > | protected    | Pode ser acessado pela classe e suas subclasses                            |
+  > | private      | Pode ser acessado apenas pela classe que o contém                         |
+  > | default      | Pode ser acessado apenas por classes do mesmo pacote                      |
+
+- Declarar métodos
+    ~~~java
+   [visibilidade] [TipoDeRetorno] [NomeDoMetodo] ([Parametros]){
+        [Código a ser implementado]
+    }
+  
+  -------------------------------
+  Exemplo:
+  
+    private statc main(String[] args){
+        Double[] valores = pegarValores();
+        Double resultado = somar(valores[0], valores[1]);
+        System.out.println("A soma dos valores é: " + resultado);
+    }
+  
+    private Double[] pegarValores(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o primeiro número:");
+        Double a = Double.valueOf(scanner.nextLine());
+        System.out.println("Digite o segundo número:");
+        Double b = Double.valueOf(scanner.nextLine());
+        return new Double[] {a, b};
+    }
+  
+    public static Double somar(Double numeroUm, Double numeroDois){
+        return numeroUm + numeroDois;
+    }
+    ~~~
