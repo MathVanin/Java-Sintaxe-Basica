@@ -2,8 +2,21 @@ package edu.mathvanin.javasintaxebasica;
 
 import java.util.Scanner;
 
+/**
+ * <h1>Exemplos em código java</h1>
+ * Classe criada apenas para exemplificar alguns dos conceitos descritos no README.md
+ *
+ * @author Matheus Vanin
+ * @version 1.0
+ * @since 17/08/2024
+ */
+
 public class Exemplos {
-    // Exemplos de tipos de váriaveis e operadores
+    /**
+     * Método que exemplifica a declaração de variáveis e operadores
+     * Solicita 4 números ao usuario e calcula a média e exibe o nome do aluno e se foi aprovado ou reprovado
+     * @return void
+     */
     private static void variaveisOperadores(){
         Scanner scanner = new Scanner(System.in);
         System.out.println(" ========= Variáveis e Operadores =========");
